@@ -1,0 +1,44 @@
+html,
+body {
+    height: 100%;
+    font-size: 2em;
+    margin: 0;
+}
+
+img {
+    float: right;
+    width: 80px;
+    height: 80px;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: red;
+}
+
+.header ul {
+    font-size: 20px;
+    display: inline-block;
+    color: black;
+}
+
+.header {
+    height: 100px;
+    min-height: 100px;
+    background-color: gray;
+}
+
+.sub-layout {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    background-color: green;
+}
+
+.side-bar {
+    background-color: yellow;
+    width: 200px;
+    min-width: 200px;
+}
